@@ -108,3 +108,34 @@ span {
     50% { opacity: 1; }
     100% { opacity: 0; }
 }
+
+.social-media-links a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.social-media-links a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media-links a img:hover {
+    transform: scale(1.2);
+}
+
+
+.video-container {
+    text-align: center;
+}
+
